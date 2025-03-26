@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Função que realiza a compressão da string
+// Função que realiza a compressão da stringgit
 void compressString(char *input, char *charArray, int *countArray, int *length)
 {
     // Variável que armazena o caractere atual que estamos processando
