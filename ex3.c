@@ -2,24 +2,13 @@
 #include <stdlib.h>
 #include <string.h>
 
-void compactar(char *lettEntrada, char *lettSaida){
+void compactar(char *lettEntrada){
     int tamanho = strlen(lettEntrada);
-    int i = 0;
-    int contador = 1;
-    char *ptr = lettSaida;
-    while(lettEntrada[i] != '\0'){
-        *ptr = lettEntrada[i];
-        while (i + 1 < strlen && lettEntrada[i] == lettEntrada[i + 1]){
-            i++;
-            contador++;
-        }
-        if(contador > 1){
-            ptr += sprintf(ptr, "%d", contador);
-        }
-        if(i + 1 < strlen && lettEntrada[i] == lettEntrada[i + 1 - contador]){
-            *ptr = '-';
-        }
-    }   
+
+    for(int i = 0; i < tamanho; i++){
+        const char *subEntrada = &lettEntrada[i];
+        
+    }
 }
 
 
