@@ -1,3 +1,10 @@
+/* Nome: Caio Ariel Cardoso Saraiva               RA: 10439611
+    Nome: Isabela Hissa Pinto                           RA: 10441873
+    Nome: Kaique Barros Paiva                         RA: 10441787  */
+
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
